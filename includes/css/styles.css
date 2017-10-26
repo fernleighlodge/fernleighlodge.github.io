@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+	BODY {
+		background:url(../../images/bg_body.jpg) top center;
+		font-family:'Century Gothic', Verdana, Geneva, sans-serif;
+		color:#055c29;
+		margin:0;
+	}
+		
+	#container {
+		position:absolute;
+		left:50%;
+		width:962px;
+		margin-left:-481px;
+		font-size:9pt;
+	}
+	
+		h1 {
+			display:block;
+			width:428px;
+			height:111px;
+			margin:10px 0 9px 10px;
+			background:url(../../images/logo_fernleigh_gardens.gif);
+			text-indent:-999px;
+			overflow:hidden;
+			padding:0;
+		}
+			#menu {
+				display:block;
+				background:#055c29;
+				height:38px;
+				overflow:hidden;
+			}
+				#menu ul {
+					margin:0;
+					padding:0;
+					list-style-type:none;
+				}
+					#menu ul li { 
+						margin:0;
+						padding:0;
+						display:inline;
+					}
+						#menu ul li a {
+							display:block;
+							padding:10px 15px;
+							float:left;
+							color:#CCC;
+							text-decoration:none;
+							font-weight:bold;
+							text-transform:uppercase;
+						}
+							#menu ul li a:hover { color:#FFF; }
+
+		#photo {
+			display:block;
+			height:175px;
+			overflow:hidden;
+			border-bottom:10px solid #055c29;
+		}
+
+		.img_lhs {
+			display:block;
+			background: url(../../images/bg_img_lhs.gif) top right repeat-y;
+		}
+			.img_lhs img {
+				float:left;
+				border:0;
+			}
+			.img_lhs .col_left {
+				float:left;
+				width:453px;
+				overflow:hidden;
+			}
+				.img_lhs .col_left h2 	{ margin:0 0 20px 20px; position:relative; top:20px;}
+				.img_lhs .col_left p 	{ padding:20px; }
+			
+			.img_lhs .tx {
+				display:block;
+				float:left;
+				padding:40px 20px 20px 20px;
+				width:465px;
+				text-align:justify;
+			}
+		.img_rhs {
+			display:block;
+			background: url(../../images/bg_img_rhs.gif) top left repeat-y;
+			padding:20px 0 20px 0;
+		}
+			.img_rhs img {
+				float:right;
+				border:0;
+			}
+			.img_rhs .tx {
+				display:block;
+				float:left;
+				padding:20px 20px 0 20px;
+				width:412px;
+				text-align:justify;
+			}
+		.pad_right_sml 	{ margin-right:20px; }
+		.pad_right_lrg 	{ margin-right:55px; }
+		
+		p.gry_txt { color:#747474; }
+		
+		.no_bg { background:white; }
+		.grn_bot { background:#055c29; height:28px; overflow:hidden; margin-bottom:50px; }
+		
+		
+		h2 {
+			margin:0;
+			padding:0;
+		}
+		.clearer {
+			display:block;
+			height:1px;
+			overflow:hidden;
+			clear:both;
+		}
+
+		.header_replace {
+			display:block;
+			text-indent:-999px;
+			overflow:hidden;
+		}
+		
+		form {
+			margin:0;
+			padding:0;
+		}
+			input, textarea {
+				border:1px solid #bbb;
+				font-family:'Century Gothic', Verdana, Geneva, sans-serif;
+				padding:2px;
+				color:#666;
+				font-size:9pt;
+				width:220px;
+				margin-left:20px;
+			}
+			input.submit_but {
+				color:#fff;
+				background:#055c29;
+				border:1px solid #055c29;
+				width:100px;
+			}
+
+	.no_pad { padding:0; }
+	
+	.hp_special {
+		display:block;
+		width:460px;
+		height:137px;
+		background:url(../../images/hp_special.jpg);
+		position:relative;
+		float:right;
+		margin-right:14px;
+	}
+		.hp_special p {
+			position:absolute;
+			top:12px;
+			left:250px;
+			width:200px;
+			color:white;
+			text-align:justify;
+			display:block;
+			padding:0;
+			margin:0;
+		}
+		.pt11 { font-size:14pt; }
+		.hp_special a {
+			display:block;
+			top:0;
+			left:0;
+			position:absolute;
+			width:460px;
+			height:137px;
+			text-decoration:none;
+		}
+
+	table {
+		border:0;
+		margin:0;
+		padding:0;
+	}
+		table tr { margin:0; padding:0; }
+		
+			table tr td {
+				margin:0 0 0 1px;
+				padding:0 5px 0 5px;
+				font-size:7.5pt;
+			}
+		table tr.grn td { background:#055c29; color:white; font-weight:bold; }
+		table tr.lggrn td {
+	color:white;
+	font-weight:bold;
+	height: 2px;
+	background-color: #060;
+}
+
+/*	specifics -------------------------------------------------------------------------------------------------------------------- */
+
+
+	.h_welcome 			{ width:402px; height:23px; background:url(../../images/ttl_welcome_to_fernleigh.gif); }
+	.h_services 		{ width:301px; height:21px; background:url(../../images/ttl_service_accommodation.gif); }
+	.h_accrates 		{ width:240px; height:30px; background:url(../../images/ttl_rates3.gif); }
+	.h_within_walking 	{ width:210px; height:21px; background:url(../../images/ttl_within_walking_distance.gif); }
+	.f_dining_hall		{ width:384px; height:24px; background:url(../../images/ttl_dining_hall.gif); }
+	.f_facilities		{ width:81px; height:20px; background:url(../../images/ttl_facilities.gif); }
+	.a_accommodation	{ width:460px; height:24px; background:url(../../images/ttl_accommodation.gif); }
+	.s_self-catering	{ width:410px; height:24px; background:url(../../images/ttl_self-catering.gif); }
+	.r_rates			{ width:329px; height:23px; background:url(../../images/ttl_rates.gif); }
+	.r_parking			{ width:71px; height:21px; background:url(../../images/ttl_parking.gif); }
+	.c_location			{ width:365px; height:23px; background:url(../../images/ttl_location.gif); }
+	.c_contact			{ width:124px; height:17px; background:url(../../images/ttl_contact.gif); }
